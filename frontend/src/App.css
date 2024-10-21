@@ -1,0 +1,53 @@
+/* App.css */
+
+.custom-input {
+    padding: 8px; /* Reduced padding for smaller input fields */
+    border: 2px solid #4A90E2; /* Light blue border */
+    border-radius: 8px;
+    background-color: #1A202C; /* Darker background */
+    color: #FFFFFF; /* White text */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition effects */
+}
+
+.custom-input:focus {
+    border-color: #63B3ED; /* Light blue border on focus */
+    box-shadow: 0 0 5px rgba(99, 184, 237, 0.5); /* Light blue shadow */
+    outline: none; /* Remove default outline */
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 640px) {
+    .custom-input {
+        width: 80px; /* Set a specific width for small screens */
+    }
+}
+
+.custom-button {
+    background-color: #2B6CB0; /* Darker blue background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+.custom-button:hover {
+    background-color: #2C5282; /* Even darker blue on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+.custom-select {
+    padding: 12px;
+    border: 2px solid #4A90E2; /* Light blue border */
+    border-radius: 8px;
+    background-color: #1A202C; /* Darker background */
+    color: #FFFFFF; /* White text */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition effects */
+}
+
+.custom-select:focus {
+    border-color: #63B3ED; /* Light blue border on focus */
+    box-shadow: 0 0 5px rgba(99, 184, 237, 0.5); /* Light blue shadow */
+    outline: none; /* Remove default outline */
+}
